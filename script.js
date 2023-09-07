@@ -47,15 +47,15 @@ $(document).ready(function(){
     // typing text animation script
     var typed = new Typed(".typing", {
         strings: ["Desenvolvedor backend", "Aprendiz de Flutter", "Suporte e Consultor de TI", "Administrador de Sistemas", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        typeSpeed: 50,
+        backSpeed: 30,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["desenvolvedor backend", "administrador de sistemas", "suporte e consultor de TI", "Freelancer"],
-        typeSpeed: 100,
-        backSpeed: 60,
+        strings: ["dev backend", "suporte e consultor TI", "sysadmin", "freelancer"],
+        typeSpeed: 50,
+        backSpeed: 30,
         loop: true
     });
 
